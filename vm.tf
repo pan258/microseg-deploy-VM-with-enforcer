@@ -65,11 +65,8 @@ resource "azurerm_linux_virtual_machine" "testvm" {
   custom_data = base64encode(local.user_data)
 
   tags = {
-    RunStatus       = "NOSTOP"
-    StoreStatus     = "DND"
-    application     = "VM Host with Enforcer"
-    project         = "microsegmentation-lab"
-    enforcer        = "yes"
+    Project  = "microsegmentation-lab"
+    Enforcer = "yes"
   }
 
   depends_on = [
