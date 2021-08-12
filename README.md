@@ -40,11 +40,6 @@ These Terraform templates will deploy a VM on Azure with Enforcer installed and 
 
 
 
-## Note
-This has been tested with 9.1.6 and 10.0.3.
-
-
-
 ## Support Policy
 The code and templates in the repo are released under an as-is, best effort,
 support policy. These scripts should be seen as community supported and
