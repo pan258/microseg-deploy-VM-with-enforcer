@@ -14,4 +14,4 @@ vmSize = "Standard_B1s"
 
 cns_api = "https://api.east-02.network.prismacloud.io"
 
-cns_namespace = "807152304871829504/loons/AKSGuestbook"
+cns_namespace = "/807152304871829504/loons/AKSGuestbook"
