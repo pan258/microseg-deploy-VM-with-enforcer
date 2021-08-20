@@ -1,17 +1,17 @@
-resource_group_name = "<RG Name>"
+resource_group_name = "loo_resourceauto"
 
-location = "<Azure region to deploy the VM. e.g. southeastasia>"
+location = "southeastasia"
 
-adminUsername = "paloalto"
+adminUsername = "pan258"
 
-ssh_public_key = "~/.ssh/id_rsa.pub"
+ssh_public_key = "/home/user/.ssh/id_rsa.pub"
 
-AllowedSourceIPRange = "<Allow Source IP Range. e.g. 1.2.3.4/32>"
+#AllowedSourceIPRange = "<Allow Source IP Range. e.g. 1.2.3.4/32>"
 
-vmName = "server01"
+vmName = "loosautoreg"
 
 vmSize = "Standard_B1s"
 
-cns_api = "<Microsegmentation API Endpoint for your tenant>"
+cns_api = "https://api.east-02.network.prismacloud.io"
 
-cns_namespace = "<Microsegmentation Name Space to deploy the VM>"
+cns_namespace = "807152304871829504/loons/AKSGuestbook"
