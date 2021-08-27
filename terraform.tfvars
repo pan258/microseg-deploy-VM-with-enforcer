@@ -1,8 +1,8 @@
-resource_group_name = "loo_resourceauto"
+resource_group_name = "<resourcegroup>"
 
 location = "southeastasia"
 
-adminUsername = "pan258"
+adminUsername = "<username>"
 
 ssh_public_key = "/home/user/.ssh/y.pub"
 
@@ -12,6 +12,6 @@ vmName = "loosautoreg"
 
 vmSize = "Standard_B1s"
 
-cns_api = "https://api.east-02.network.prismacloud.io"
+cns_api = "https://api"
 
-cns_namespace = "/807152304871829504/loons/AKSGuestbook"
+cns_namespace = "/ns"
